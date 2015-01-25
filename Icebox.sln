@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icebox", "Icebox\Icebox.csproj", "{46468E55-6833-4A09-BC5F-15C5979D7EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icebox.Tests", "Icebox.Tests\Icebox.Tests.csproj", "{34E4A0A2-373D-4E3D-BA55-56608019D3D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E51D05F8-B2B6-4DCC-A9BD-B1EA56C3A19C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{8760B805-112D-4B16-A3C3-6A08A2C83216}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Icebox-WAWS-dev.json = PublishScripts\Configurations\Icebox-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3F282D60-49E2-409F-8086-A98CE4E4DC7A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46468E55-6833-4A09-BC5F-15C5979D7EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46468E55-6833-4A09-BC5F-15C5979D7EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46468E55-6833-4A09-BC5F-15C5979D7EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46468E55-6833-4A09-BC5F-15C5979D7EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E4A0A2-373D-4E3D-BA55-56608019D3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E4A0A2-373D-4E3D-BA55-56608019D3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E4A0A2-373D-4E3D-BA55-56608019D3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E4A0A2-373D-4E3D-BA55-56608019D3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8760B805-112D-4B16-A3C3-6A08A2C83216} = {E51D05F8-B2B6-4DCC-A9BD-B1EA56C3A19C}
+	EndGlobalSection
+EndGlobal
