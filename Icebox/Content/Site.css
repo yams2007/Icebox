@@ -1,9 +1,4 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-/* Set padding to keep content from hitting the edges */
+﻿/* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
@@ -21,4 +16,49 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+@font-face {
+    font-family: 'communistregular';
+    src: url('Webfonts/Communist/communist_regular/COMMUNIS-webfont.eot');
+    src: url('Webfonts/Communist/communist_regular/COMMUNIS-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Webfonts/Communist/communist_regular/COMMUNIS-webfont.woff') format('woff'),
+         url('Webfonts/Communist/communist_regular/COMMUNIS-webfont.ttf') format('truetype'),
+         url('Webfonts/Communist/communist_regular/COMMUNIS-webfont.svg#communistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family "Verdana", sans-serif;
+    margin: auto;
+}
+
+#nav {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "communistregular", "Times New Roman", serif;
+    padding: 2px 1px;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#logo {
+    display: inline;
+    margin: 0 2px;
+    text-align: center;
+}
+
+#main-nav, #user-control {
+    display: inline;
+    margin: 0 2px;
+}
+
+#user-control {
+    float: right;
 }
