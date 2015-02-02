@@ -199,20 +199,73 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\Communist\communist_italic\COMMI___-demo.html" />
+    <Content Include="fonts\Communist\communist_italic\COMMI___-webfont.svg" />
+    <Content Include="fonts\Communist\communist_italic\specimen_files\COMMI___-cleartype.png" />
+    <Content Include="fonts\Communist\communist_italic\specimen_files\easytabs.js" />
+    <Content Include="fonts\Communist\communist_italic\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="fonts\Communist\communist_italic\specimen_files\specimen_stylesheet.css" />
+    <Content Include="fonts\Communist\communist_italic\stylesheet.css" />
+    <Content Include="fonts\Communist\communist_regular\COMMUNIS-demo.html" />
+    <Content Include="fonts\Communist\communist_regular\COMMUNIS-webfont.svg" />
+    <Content Include="fonts\Communist\communist_regular\specimen_files\COMMUNIS-cleartype.png" />
+    <Content Include="fonts\Communist\communist_regular\specimen_files\easytabs.js" />
+    <Content Include="fonts\Communist\communist_regular\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="fonts\Communist\communist_regular\specimen_files\specimen_stylesheet.css" />
+    <Content Include="fonts\Communist\communist_regular\stylesheet.css" />
+    <Content Include="fonts\Communist\communist_sansbold\COMMSB__-demo.html" />
+    <Content Include="fonts\Communist\communist_sansbold\COMMSB__-webfont.svg" />
+    <Content Include="fonts\Communist\communist_sansbold\specimen_files\COMMSB__-cleartype.png" />
+    <Content Include="fonts\Communist\communist_sansbold\specimen_files\easytabs.js" />
+    <Content Include="fonts\Communist\communist_sansbold\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="fonts\Communist\communist_sansbold\specimen_files\specimen_stylesheet.css" />
+    <Content Include="fonts\Communist\communist_sansbold\stylesheet.css" />
+    <Content Include="fonts\Communist\communist_sans\COMMS___-demo.html" />
+    <Content Include="fonts\Communist\communist_sans\COMMS___-webfont.svg" />
+    <Content Include="fonts\Communist\communist_sans\specimen_files\COMMS___-cleartype.png" />
+    <Content Include="fonts\Communist\communist_sans\specimen_files\easytabs.js" />
+    <Content Include="fonts\Communist\communist_sans\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="fonts\Communist\communist_sans\specimen_files\specimen_stylesheet.css" />
+    <Content Include="fonts\Communist\communist_sans\stylesheet.css" />
+    <Content Include="fonts\Communist\Freeware License.txt" />
+    <Content Include="fonts\Communist\How_to_use_webfonts.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\stylesheet.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config" />
+    <Content Include="fonts\Communist\communist_italic\COMMI___-webfont.eot" />
+    <Content Include="fonts\Communist\communist_italic\COMMI___-webfont.ttf" />
+    <Content Include="fonts\Communist\communist_italic\COMMI___-webfont.woff" />
+    <Content Include="fonts\Communist\communist_regular\COMMUNIS-webfont.eot" />
+    <Content Include="fonts\Communist\communist_regular\COMMUNIS-webfont.ttf" />
+    <Content Include="fonts\Communist\communist_regular\COMMUNIS-webfont.woff" />
+    <Content Include="fonts\Communist\communist_sansbold\COMMSB__-webfont.eot" />
+    <Content Include="fonts\Communist\communist_sansbold\COMMSB__-webfont.ttf" />
+    <Content Include="fonts\Communist\communist_sansbold\COMMSB__-webfont.woff" />
+    <Content Include="fonts\Communist\communist_sans\COMMS___-webfont.eot" />
+    <Content Include="fonts\Communist\communist_sans\COMMS___-webfont.ttf" />
+    <Content Include="fonts\Communist\communist_sans\COMMS___-webfont.woff" />
     <None Include="Properties\PublishProfiles\Icebox.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\JavaScript1.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -259,6 +312,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\Home\Calendar.cshtml" />
+    <Content Include="Views\Home\Recent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
