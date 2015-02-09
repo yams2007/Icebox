@@ -58,11 +58,11 @@ namespace Icebox
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "282947888381-gm3sqlk1tpkc7fgap92d95of410vkhtb.apps.googleusercontent.com",
+                ClientSecret = "AomFmizW6xuQZZsN4_7Q-E44"
+            });
         }
     }
 }
