@@ -1,0 +1,19 @@
+﻿@model Icebox.Models.PostViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>PostViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PostID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<img src=@Model.PostContent.AsImageContent().Url>
