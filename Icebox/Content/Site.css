@@ -111,6 +111,7 @@ textarea {
     align-content: flex-start;
     flex-basis: 30%;*/
     margin: auto;
+    text-align: center;
 }
 
 article {
@@ -118,11 +119,11 @@ article {
 
 .postitem {
     background-color: #a5a3aa;
-    overflow: hidden;
     margin: 2px;
 
     display: inline-block;
     vertical-align: top;
+    width: 30%;
 }
 
 .postwrapper {
@@ -135,6 +136,13 @@ article {
 
 .postcontent {
     padding: 2px;
+    height: 200px;
+    overflow: hidden;
+    /*
+    position: relative;
+    top: 100px;
+    transform: translateY(-50%);
+    */
 }
 
 .postcontent img {
@@ -142,13 +150,15 @@ article {
 }
 
 .postactions {
-
+    text-align: left;
 }
 
 .postactions ul {
     display: inline;
     list-style-type: none;
     padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .postactions li {
@@ -173,4 +183,20 @@ article {
 
 .posttypetext {
 
+}
+
+.btn-left {
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.btn-right {
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+
+.btn-left:hover, .btn-right:hover {
+    opacity: 0.4;
 }
