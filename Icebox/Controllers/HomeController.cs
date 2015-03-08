@@ -40,5 +40,10 @@ namespace Icebox.Controllers
 
             return View();
         }
+
+        public ActionResult SearchResult()
+        {
+            return View();
+        }
     }
 }

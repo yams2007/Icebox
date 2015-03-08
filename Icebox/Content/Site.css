@@ -103,11 +103,29 @@ textarea {
 }
 
 /* Search Results & Filtering */
-.searchcontainer {
+#searchcontainer {
+    /*display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-basis: 30%;*/
+    margin: auto;
+}
 
+article {
 }
 
 .postitem {
+    background-color: #a5a3aa;
+    overflow: hidden;
+    margin: 2px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.postwrapper {
 
 }
 
@@ -115,6 +133,44 @@ textarea {
 
 }
 
+.postcontent {
+    padding: 2px;
+}
+
+.postcontent img {
+    max-width: 250px;
+}
+
+.postactions {
+
+}
+
+.postactions ul {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.postactions li {
+    display: inline;
+}
+
+.postpermalink {
+    float: right;
+}
+
 .posttagblock {
+
+}
+
+.posttypeimage .postcontent {
+    text-align: center;
+}
+
+.posttypevideo .postcontent {
+    text-align: center;
+}
+
+.posttypetext {
 
 }
