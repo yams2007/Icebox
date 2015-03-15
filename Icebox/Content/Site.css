@@ -104,12 +104,6 @@ textarea {
 
 /* Search Results & Filtering */
 #searchcontainer {
-    /*display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-basis: 30%;*/
     margin: auto;
     text-align: center;
 }
@@ -117,13 +111,55 @@ textarea {
 article {
 }
 
+
+
+.btn-left {
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.btn-right {
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+
+.btn-left:hover, .btn-right:hover {
+    opacity: 0.4;
+}
+
+
+
+.posttypeimage .postcontent {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.posttypevideo .postcontent {
+    text-align: center;
+}
+
+.posttypevideo .posttypeicon {
+    float: left;
+    margin: 5px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    z-index: 10;
+}
+
+.posttypetext {
+
+}
+
+
+
 .postitem {
     background-color: #a5a3aa;
-    margin: 2px;
-
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    position: relative;
 }
 
 .postwrapper {
@@ -135,18 +171,17 @@ article {
 }
 
 .postcontent {
-    padding: 2px;
-    height: 200px;
     overflow: hidden;
-    /*
-    position: relative;
-    top: 100px;
-    transform: translateY(-50%);
-    */
+    vertical-align: middle;
 }
 
 .postcontent img {
-    max-width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.postcontent iframe {
+    width: 100%;
 }
 
 .postactions {
@@ -165,38 +200,20 @@ article {
     display: inline;
 }
 
-.postpermalink {
+.postactions-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.postactions-right {
     float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .posttagblock {
 
 }
 
-.posttypeimage .postcontent {
-    text-align: center;
-}
-
-.posttypevideo .postcontent {
-    text-align: center;
-}
-
-.posttypetext {
-
-}
-
-.btn-left {
-    position: absolute;
-    left: 0;
-    top: 250px;
-}
-
-.btn-right {
-    position: absolute;
-    right: 0;
-    top: 250px;
-}
-
-.btn-left:hover, .btn-right:hover {
-    opacity: 0.4;
-}

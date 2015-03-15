@@ -36,8 +36,6 @@ namespace Icebox.Controllers
 
         public ActionResult Search()
         {
-            ViewBag.Message = "Your search page.";
-
             return View();
         }
 
