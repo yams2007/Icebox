@@ -46,9 +46,10 @@ namespace Icebox
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "000000004413D944",
+                clientSecret: "KizdYT7TA-9W0GZwdC6717ALXSC7yAu4");
+
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
