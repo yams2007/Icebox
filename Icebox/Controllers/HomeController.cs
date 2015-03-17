@@ -43,5 +43,10 @@ namespace Icebox.Controllers
         {
             return View();
         }
+
+        public ActionResult PostResult()
+        {
+            return View();
+        }
     }
 }

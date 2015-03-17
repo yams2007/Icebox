@@ -106,9 +106,17 @@ textarea {
 #searchcontainer {
     margin: auto;
     text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
 }
 
 article {
+
 }
 
 
@@ -160,6 +168,8 @@ article {
     display: inline-block;
     vertical-align: top;
     position: relative;
+
+    flex-basis: auto;
 }
 
 .postwrapper {
@@ -170,22 +180,28 @@ article {
 
 }
 
-.postcontent {
+#searchcontainer .postcontent {
     overflow: hidden;
+    height: 150px;
+    min-width: 100px;
+}
+
+.postcontent {
     vertical-align: middle;
 }
 
 .postcontent img {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
 }
 
 .postcontent iframe {
     width: 100%;
 }
 
-.postactions {
+#searchcontainer .postactions {
     text-align: left;
+    color: #FFFFFF;
 }
 
 .postactions ul {
@@ -217,3 +233,21 @@ article {
 
 }
 
+/* Individual Post Page */
+#postcontainer {
+    margin-top: 100px;
+}
+
+#postcontainer .postcontent {
+    display: inline;
+    border: 1px solid red;
+}
+
+.postdata {
+    display: inline;
+    border: 1px solid red;
+}
+
+#postcontainer .postactions {
+
+}
